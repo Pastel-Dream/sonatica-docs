@@ -74,7 +74,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/JirayuSrisawat-Github/sakulink",
+        link: "https://github.com/Pastel-Dream/sonatica",
       },
     ],
   },
