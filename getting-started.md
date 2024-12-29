@@ -52,7 +52,7 @@ const nodes = [
 client.manager = new Sonatica({
   shards: client.shard?.count ?? 1,
   autoPlay: true,
-  defaultSearchPlatform: "youtube music",
+  defaultSearchPlatform: SearchPlatform["youtube music"],
   autoMove: true,
   cacheTTL: 30 * 60 * 1000, // ms | default is 30 minutes.
 
